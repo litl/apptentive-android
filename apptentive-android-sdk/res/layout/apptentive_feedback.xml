@@ -16,9 +16,8 @@
               android:paddingBottom="10dp">
 	<FrameLayout android:id="@+id/apptentive_paper_frame"
 	             android:layout_width="fill_parent"
-	             android:layout_height="fill_parent">
-		<com.apptentive.android.sdk.view.PaperBackground android:layout_width="fill_parent"
-		                                                 android:layout_height="fill_parent"/>
+	             android:layout_height="fill_parent"
+	             android:background="#FFFFFF">
 		<LinearLayout android:layout_width="fill_parent"
 		              android:layout_height="fill_parent"
 		              android:orientation="vertical"
