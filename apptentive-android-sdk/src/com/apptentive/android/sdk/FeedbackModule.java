@@ -10,6 +10,7 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -168,6 +169,11 @@ public class FeedbackModule {
 				}
 			});
 			send.setEnabled(false);
+
+                        final Typeface buttonTypeface = Typeface.createFromAsset(context.getAssets(), "fonts/CalibanStd.otf");
+                        send.setTypeface(buttonTypeface);
+                        final Button cancel = (Button) findViewById(R.id.apptentive_button_cancel);
+                        cancel.setTypeface(buttonTypeface);
 
 			findViewById(R.id.apptentive_branding_view).setOnClickListener(new View.OnClickListener() {
 				public void onClick(View view) {

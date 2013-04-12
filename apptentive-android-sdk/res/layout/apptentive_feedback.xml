@@ -39,9 +39,8 @@
 					        android:paddingTop="6dp"
 					        android:paddingRight="10dp"
 					        android:paddingBottom="6dp"
-					        android:textColor="#EEEEEE"
-					        android:textSize="18sp"
-					        android:textStyle="bold"
+					        android:textColor="#FFFFFF"
+					        android:textSize="25sp"
 					        android:background="@drawable/apptentive_header_button"
 					        android:text="@string/apptentive_cancel"/>
 					<TextView android:layout_width="wrap_content"
@@ -65,9 +64,8 @@
 					        android:paddingTop="6dp"
 					        android:paddingRight="10dp"
 					        android:paddingBottom="6dp"
-					        android:textColor="#EEEEEE"
-					        android:textSize="18sp"
-					        android:textStyle="bold"
+					        android:textColor="#FFFFFF"
+					        android:textSize="25sp"
 					        android:background="@drawable/apptentive_header_button"
 					        android:text="@string/apptentive_send"/>
 				</RelativeLayout>
