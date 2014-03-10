@@ -3,21 +3,18 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.4'
+        classpath 'com.android.tools.build:gradle:0.9.0'
     }
 }
 apply plugin: 'android-library'
 
-dependencies {
-}
-
 android {
     compileSdkVersion 7
-    buildToolsVersion "17"
+    buildToolsVersion "19"
 
     defaultConfig {
-        minSdkVersion 1
-        targetSdkVersion 1
+        minSdkVersion 7
+        targetSdkVersion 7
     }
     sourceSets {
         main {
@@ -31,5 +28,9 @@ android {
         }
 
         instrumentTest.setRoot('tests')
+    }
+
+    lintOptions {
+        abortOnError false
     }
 }
